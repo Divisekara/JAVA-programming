@@ -37,10 +37,16 @@ public class operators {
         System.out.println(name.length()); // length of the string
         System.out.println(name.indexOf("ith")); // returining the first occurance of the given character/substring in
                                                  // the string.
-        String sample = name.replace("i", "sex"); // replace method will not change the existing string but it will
-                                                  // return a string with replacement
+        String replacing = name.replace("i", "sex"); // replace method will not change the existing string but it will
+                                                     // return a string with replacement
+        System.out.println(replacing);
 
-        System.out.println(sample);
+        String upper = name.toUpperCase(); // converting the string all characters into uppercase
+        System.out.println(upper);
+
+        String lower = "SHANTHI".toLowerCase(); // converting all the string characters into lowercase.
+        System.out.println(lower);
+
     }
 
 }
