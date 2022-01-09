@@ -1,11 +1,14 @@
 class Hello {
 
-    public static void main(String[] args) {
-        System.out.println("Hello Test!");
-        double tuna;
-        tuna = 5.28;
-        System.out.print("Asitha indrajith"); // no new line
-        System.out.println(tuna);
+    public static void main(String[] args) { // this string array is an empty array. but its not null.
+        String asitha;
+        asitha = "Java";
+        System.out.println(asitha);
+        // System.out.println("Hello Test!");
+        // double tuna;
+        // tuna = 5.28;
+        // System.out.print("Asitha indrajith"); // no new line
+        // System.out.println(tuna);
         // System.out.println('asitha indrajith'); you cant use single quotation for
         // strings only double quotation
     }
