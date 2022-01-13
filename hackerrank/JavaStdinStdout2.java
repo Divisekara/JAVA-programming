@@ -19,3 +19,12 @@ public class JavaStdinStdout2 {
 // next() can read the input till the space
 // nextLine() read the input including space between the words unitl \n new line
 // character.
+// we can do the string reading using the class bufferReader class as welll
+
+// Scanner.nextInt() method does not read the new line character so we have to
+// use another nextLine in order to read he newline character of that input.
+// also the nextDouble may behave in the sam way.
+// so make sure to put a nexLine after reading an integer or double.
+// anothe good solution is to read the line numbers using the nextLine and then
+// convert them into the integers or doubles using parseInt or parseDouble
+// methods.
